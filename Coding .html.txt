@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveenkumar N | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Naveenkumar N</h2>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
+      <h1>Naveenkumar N</h1>
+      <p class="tagline">Aspiring IT Student | Passionate about Programming & Web Design</p>
+      <p>I am Naveenkumar, currently pursuing Information Technology at Bharathiyar University. I’m passionate about learning programming and web design.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am Naveenkumar, an IT student at Bharathiyar University. I have completed my 12th grade and am currently learning Information Technology. I enjoy learning new technologies, problem solving, and improving my programming skills.</p>
+    <h3>Education</h3>
+    <ul>
+      <li>12th Pass</li>
+      <li>Pursuing Bachelor’s in Information Technology at Bharathiyar University</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C</li>
+      <li>C++</li>
+      <li>Web Design</li>
+      <li>Programming</li>
+    </ul>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Designing simple, user-friendly websites</p>
+      </div>
+      <div class="card">
+        <h3>Programming Projects</h3>
+        <p>Basic Programming Projects in C & C++</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>My Learning Projects</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Mini Project 1</h3>
+        <p>Coming soon...</p>
+      </div>
+      <div class="card">
+        <h3>Mini Project 2</h3>
+        <p>Coming soon...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Naveenkumar N | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
